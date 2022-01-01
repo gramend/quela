@@ -1,11 +1,13 @@
 from django.contrib import admin
 
 from .models import (
-    Tag,
+    Category,
     Question,
+    Answer,
 )
 
 admin.site.register([
-    Tag,
+    Category,
     Question,
+    Answer,
 ])
